@@ -6,7 +6,7 @@ import org.testng.annotations.Test;
 public class class1 {
 	
 	@Test(priority=1,groups="Smoke")
-	public void FirstProgrammofClass1()
+	public void FirsstProgrammofClass1()
 	{
 		System.out.println("This is FirstProgrammofClass1");
 	}
