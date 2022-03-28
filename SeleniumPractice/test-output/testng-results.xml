@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-03-28T13:05:45Z" name="Suite" finished-at="2022-03-28T13:05:45Z" duration-ms="105">
+    <groups>
+      <group name="Smoke">
+        <method signature="class1.FirstProgrammofClass1()[pri:0, instance:TestNGGroups.class1@7d9e8ef7]" name="FirstProgrammofClass1" class="TestNGGroups.class1"/>
+        <method signature="class1.SecondProgrammofClass1()[pri:0, instance:TestNGGroups.class1@7d9e8ef7]" name="SecondProgrammofClass1" class="TestNGGroups.class1"/>
+        <method signature="class2.FirstProgrammofclass2()[pri:0, instance:TestNGGroups.class2@31add175]" name="FirstProgrammofclass2" class="TestNGGroups.class2"/>
+        <method signature="class2.SecondProgrammofclass2()[pri:0, instance:TestNGGroups.class2@31add175]" name="SecondProgrammofclass2" class="TestNGGroups.class2"/>
+      </group> <!-- Smoke -->
+    </groups>
+    <test started-at="2022-03-28T13:05:45Z" name="Test" finished-at="2022-03-28T13:05:45Z" duration-ms="105">
+      <class name="TestNGGroups.class2">
+        <test-method signature="FirstProgrammofclass2()[pri:0, instance:TestNGGroups.class2@31add175]" started-at="2022-03-28T18:35:45Z" name="FirstProgrammofclass2" finished-at="2022-03-28T18:35:45Z" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FirstProgrammofclass2 -->
+        <test-method signature="SecondProgrammofclass2()[pri:0, instance:TestNGGroups.class2@31add175]" started-at="2022-03-28T18:35:45Z" name="SecondProgrammofclass2" finished-at="2022-03-28T18:35:45Z" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SecondProgrammofclass2 -->
+      </class> <!-- TestNGGroups.class2 -->
+      <class name="TestNGGroups.class1">
+        <test-method signature="FirstProgrammofClass1()[pri:0, instance:TestNGGroups.class1@7d9e8ef7]" started-at="2022-03-28T18:35:45Z" name="FirstProgrammofClass1" finished-at="2022-03-28T18:35:45Z" duration-ms="22" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FirstProgrammofClass1 -->
+        <test-method signature="SecondProgrammofClass1()[pri:0, instance:TestNGGroups.class1@7d9e8ef7]" started-at="2022-03-28T18:35:45Z" name="SecondProgrammofClass1" finished-at="2022-03-28T18:35:45Z" duration-ms="17" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SecondProgrammofClass1 -->
+      </class> <!-- TestNGGroups.class1 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
